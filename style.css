@@ -783,6 +783,7 @@ footer {
 .text-gradient {
     background: linear-gradient(to right, #fff, var(--accent-color));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
