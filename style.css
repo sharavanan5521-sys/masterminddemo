@@ -1262,4 +1262,10 @@ footer {
         opacity: 1;
         transform: translateX(0px);
     }
+
+}
+
+/* Utility class to disable scrolling when mobile menu is open */
+body.no-scroll {
+    overflow: hidden;
 }

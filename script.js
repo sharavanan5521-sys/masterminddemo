@@ -35,6 +35,7 @@ const navSlide = () => {
     burger.addEventListener('click', () => {
         // Toggle Nav
         nav.classList.toggle('nav-active-mobile');
+        document.body.classList.toggle('no-scroll');
 
         // Animate Links
         navLinks.forEach((link, index) => {
